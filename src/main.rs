@@ -22,12 +22,14 @@ struct Args {
     #[arg(short, long, default_value_t = 100)]
     num_iters: u32,
 
-    #[arg(short = 'r', long, default_value_t = 1.0)]
-    step_factor: f32,
-
     #[arg(short, long, default_value_t = 16)]
     batch_size: u32,
 
+    /// Initial step factor applied to pixel color motions. Converges to 1.0 at a 10% rate per iteration.
+    #[arg(short = 'r', long, default_value_t = 1.0)]
+    step_factor: f32,
+    
+    /// Do not introduce interpolated colors in the resampled target image.
     #[arg(short, long, default_value_t)]
     palette: bool,
 
