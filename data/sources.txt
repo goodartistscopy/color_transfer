@@ -1,0 +1,4 @@
+bugcat.png: https://www.freepik.com/free-photo/beautiful-shot-lazy-leopard-resting-tree-with-blurred-background_10834958.htm
+dunes.png: https://www.freepik.com/free-photo/beautiful-grayscale-shot-desert_7814803.htm
+turtle.png: https://www.freepik.com/free-photo/closeup-green-sea-turtle-swimming-underwater-lights_11678040.htm
+mountains.jpg: Christophe Dehais, public domain
